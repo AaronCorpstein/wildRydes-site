@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<div id="mymapid"style="height:1080px"></div>
+	<div id="mapid" style="position:fixed;top:0;bottom:0;left:0;right:0;"></div>
 <script>
 var mymap = L.map('mymapid').setView([-95.913889,45.586111],13);
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',{
